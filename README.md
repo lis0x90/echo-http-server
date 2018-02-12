@@ -5,7 +5,7 @@ Simple echo http server (with slow response ability)
 Run http server on `localhost:9999` and emulate slow response with timeout `2s`:
 
 ```
-echohttpserver -bind localhost:9999 -sleep-time 2s
+echo_http_server -bind localhost:9999 -sleep-time 2s
 ```
 
 Test server with `curl`:
